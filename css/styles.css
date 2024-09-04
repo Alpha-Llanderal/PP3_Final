@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Nunito Sans', 'Roboto', sans-serif;
+  }
+     
+  body {
+      scroll-behavior: smooth;
+    }
+     
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+      .navbar-nav .nav-link {
+          font-size: 16px;
+      }
+      h1 {
+          font-size: 28px;
+      }
+      h2 {
+          font-size: 24px;
+      }
+      section {
+          padding: 40px 0;
+      }
+  }
+  
+  /* Custom Navbar Background */
+  .custom-navbar {
+      background-color: white !important; /* Custom background color */
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Optional border for separation */
+  }
+  
+  /* ALL sections will have the same sizes */
+  section {
+      padding: 100px 0;
+  }
+  
+  /* ALL containers will have the same sizes */
+  .container {
+      max-width: 1000 px;
+      margin: 0 auto;
+  }
+  
+  .navbar-brand img {
+      margin-right: 10px;
+  }
+  
+  .nav-link {
+      font-size: 20px;
+  }
+  
+  #menu, #contact {
+      text-align: center;
+  }
+  
+
+/****** MENU SECTION *****/
+
+.custom-margin-top {
+  margin-top: 70px;
+}
+
+#menu h1{ /***** ✨ Welcome to Crave Corner! 🍴 ****/
+  font-size: 3rem;
+  font-weight: bold;
+  color: #FFC501;
+  }
+
+#menu p{ /***** Explore our delicious offerings. *****/
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFC501;
+  }
+
+.search-container { /***** container of the area to enter the search text *****/
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#searchForm { /*****area to enter the search text *****/
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+}
+
+#searchInput { /***** white part of the area to enter the search text *****/
+    flex-grow: 2;
+    border: 2px solid #FFC501;
+    border-right: none; /* Remove the right border */
+    padding: 10px;
+    height: 40px;
+    border-radius: 50px 0 0 50px; /* Round left corners */
+    outline: none;
+}
+
+#searchForm button { /***** button part of the area to enter the search text *****/
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFC501;
+    background: #FFC501;
+    text-align: center;
+    color: white;
+    border-radius: 0 50px 50px 0; /* Round right corners */
+    cursor: pointer;
+    outline: none;
+}
+
+#searchForm button i {
+    line-height: 15px; /***** Center search icon vertically *****/
+}
+
+.fa-search { /***** Font Awesome for the search icon *****/
+    color: white;
+}
+
+
+/****** Display Result ******/
+.card {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+/***** CONTACT US SECTION *****/
+
+/* Got a Question? */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Montserrat', 'Nunito Sans', 'Roboto', sans-serif;
+  }
+  
+  #contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    }
+  
+  .form-container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .form-container h1, .form-container p {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group input, .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .input-group textarea {
+    height: 150px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #FFC501;
+  }
+
+/****** FOOTER SECTION *****/
+#footer {
+    background-color: #1B2026; 
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Montserrat', 'Nunito Sans', 'Roboto', sans-serif;
+  }
+  
+  #footer p {
+    margin: 5px 0;
+    font-weight: bolder;
+  }
+  
+  .social-links {
+    font-size: 30px; 
+  }
+  
+  .social-icon {
+    color: #FFC501;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #FFC501;
+  }
+  
+  #footer h5 {
+    font-size: 10px;;
+  }
